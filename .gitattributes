@@ -6,3 +6,6 @@
 *.webp binary
 *.pdf binary
 *.docx binary
+
+# Tell GitHub these are PHP (footer.php has no <?php tag, so it was being guessed as Hack)
+*.php linguist-language=PHP
