@@ -1,0 +1,21 @@
+# Local settings with database passwords: copy config.example.php instead
+config.php
+
+# Files officers upload while testing (the folder itself is kept)
+uploads/*
+!uploads/.gitkeep
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Database dumps from your own laptop
+*.sql.bak
+*.local.sql
+
+# Dependencies, if anyone ever adds them
+node_modules/
+vendor/
