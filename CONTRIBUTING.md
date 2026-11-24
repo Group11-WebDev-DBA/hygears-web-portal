@@ -53,8 +53,8 @@ Before starting new work, always `git pull` on `main` first so you have everyone
 - Database queries use **prepared statements** (`$stmt = $conn->prepare(...)`), never values pasted into SQL.
 - Print user data with `htmlspecialchars()`.
 - Passwords use `password_hash()` and `password_verify()`.
-- Indent with 2 spaces (the `.editorconfig` file sets this in VS Code).
-- Short comments that explain *why*, so anyone can explain the code at the defense.
+- Indent with 2 spaces.
+- Comment only what isn't obvious from the code itself.
 
 ## 5. If something goes wrong
 

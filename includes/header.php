@@ -5,10 +5,12 @@
 if (!isset($pageTitle)) { $pageTitle = "PUP Hygears"; }
 if (!isset($activePage)) { $activePage = ""; }
 
-// Prints one nav link, marked as current when it's the active page
 function navLink($key, $href, $label, $activePage) {
-  $current = ($key == $activePage) ? ' aria-current="page"' : "";
-  echo "<li><a href='$href'$current>$label</a></li>";
+  if ($key == $activePage) {
+    echo "<li><a href='$href' aria-current='page'>$label</a></li>";
+  } else {
+    echo "<li><a href='$href'>$label</a></li>";
+  }
 }
 ?>
 <!DOCTYPE html>

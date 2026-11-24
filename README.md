@@ -36,7 +36,7 @@ hygears-web-portal/
 ├── uploads/             Photos officers upload (ignored by git)
 ├── database/            SQL for the website-only tables
 ├── docs/                Proposal, UI requirements, decisions
-└── .github/             Pull request and issue templates
+└── .github/             Pull request checklist
 ```
 
 Why it's laid out this way:
