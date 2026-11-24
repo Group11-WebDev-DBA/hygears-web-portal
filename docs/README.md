@@ -1,6 +1,6 @@
 # Docs
 
-- `project-proposal.pdf`: the proposal we submitted (Nov 15).
+- `project-proposal.docx`: the proposal the group submitted (Nov 15).
 - `ui-requirements.md`: Sir Cadaoas' UI checklist from the Nov 21 lecture. Every page should pass it.
 - Design prototypes to pick from: https://group11-webdev-dba.github.io/hygears-portal-prototypes/
 
